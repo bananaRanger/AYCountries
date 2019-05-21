@@ -31,6 +31,21 @@ target 'YOUR-TARGET-NAME' do
 end
 ```
 
+## Usage
+
+```swift
+// 'country' - object of class 'AYCountry' (selected country).
+// 'vc' - object of class 'UIViewController' (countries list).
+// 'countriesViewController' - created object of class 'UIViewController' with list of countries.
+
+let countriesViewController = AYCountriesConfigurator.configure { [weak self] country, vc in
+  print(country?.name)
+  vc.dismiss(animated: true, completion: nil)
+}
+present(countriesViewController, animated: true, completion: nil)
+```
+
+
 ## Author
 
 Anton Yereshchenko
