@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AYEmptyTableViewCell" rowHeight="64" id="1c7-lg-v7X" customClass="AYEmptyTableViewCell" customModule="AYCountries" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="380" height="64"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1c7-lg-v7X" id="g7d-Yt-zNm">
+                <rect key="frame" x="0.0" y="0.0" width="380" height="63.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="rtx-y8-wCQ">
+                        <rect key="frame" x="16" y="12.5" width="348" height="38.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Message" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sdi-Ea-J1N">
+                                <rect key="frame" x="124" y="0.0" width="100.5" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="There are no data" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qiB-o4-zz8">
+                                <rect key="frame" x="130.5" y="26.5" width="87" height="12"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="10"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="rtx-y8-wCQ" firstAttribute="leading" secondItem="g7d-Yt-zNm" secondAttribute="leadingMargin" id="Q4W-1b-TOj"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="rtx-y8-wCQ" secondAttribute="trailing" id="QNd-qX-Yiq"/>
+                    <constraint firstItem="rtx-y8-wCQ" firstAttribute="centerY" secondItem="g7d-Yt-zNm" secondAttribute="centerY" id="aIy-yu-rLx"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="TeI-zE-ELa"/>
+            <connections>
+                <outlet property="lblDetails" destination="qiB-o4-zz8" id="dYe-ep-isb"/>
+                <outlet property="lblMessage" destination="sdi-Ea-J1N" id="b2S-hZ-Q7I"/>
+            </connections>
+            <point key="canvasLocation" x="171" y="35"/>
+        </tableViewCell>
+    </objects>
+</document>

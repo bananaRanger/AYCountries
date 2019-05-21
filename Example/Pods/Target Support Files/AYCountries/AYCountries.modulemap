@@ -1,0 +1,6 @@
+framework module AYCountries {
+  umbrella header "AYCountries-umbrella.h"
+
+  export *
+  module * { export * }
+}

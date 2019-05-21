@@ -1,0 +1,16 @@
+PODS:
+  - AYCountries (0.1.0)
+
+DEPENDENCIES:
+  - AYCountries (from `../`)
+
+EXTERNAL SOURCES:
+  AYCountries:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AYCountries: b3bd0deab2125d3f4e9846b4b6375b54e0d1175c
+
+PODFILE CHECKSUM: bd553be2b87da4793242ed55db125ee2d857954b
+
+COCOAPODS: 1.6.0

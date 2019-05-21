@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="AYCountryTableViewCell" rowHeight="64" id="Ihv-cd-XPB" customClass="AYCountryTableViewCell" customModule="AYCountries" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="380" height="64"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Ihv-cd-XPB" id="d41-df-AKZ">
+                <rect key="frame" x="0.0" y="0.0" width="380" height="63.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="F" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aQD-8x-vo0">
+                        <rect key="frame" x="16" y="14" width="36" height="36"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="36" id="EEs-y6-7ge"/>
+                            <constraint firstAttribute="height" constant="36" id="apZ-TX-E8a"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Country" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EKP-ek-E4m">
+                        <rect key="frame" x="64" y="18.5" width="246" height="26.5"/>
+                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="22"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="code" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vaV-Az-7UU">
+                        <rect key="frame" x="322" y="23.5" width="42" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="42" id="np5-tl-LDo"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                        <color key="textColor" white="0.79728524540000001" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="vaV-Az-7UU" secondAttribute="trailing" id="8v9-SD-Jp0"/>
+                    <constraint firstItem="aQD-8x-vo0" firstAttribute="centerY" secondItem="d41-df-AKZ" secondAttribute="centerY" id="Dgo-Kp-DgN"/>
+                    <constraint firstItem="EKP-ek-E4m" firstAttribute="centerY" secondItem="aQD-8x-vo0" secondAttribute="centerY" id="blI-qd-miV"/>
+                    <constraint firstItem="aQD-8x-vo0" firstAttribute="leading" secondItem="d41-df-AKZ" secondAttribute="leadingMargin" id="brI-wa-gn7"/>
+                    <constraint firstItem="vaV-Az-7UU" firstAttribute="leading" secondItem="EKP-ek-E4m" secondAttribute="trailing" constant="12" id="f1Q-qs-WIx"/>
+                    <constraint firstItem="vaV-Az-7UU" firstAttribute="centerY" secondItem="EKP-ek-E4m" secondAttribute="centerY" id="rjv-eB-hau"/>
+                    <constraint firstItem="EKP-ek-E4m" firstAttribute="leading" secondItem="aQD-8x-vo0" secondAttribute="trailing" constant="12" id="yc3-dv-vhI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="wgF-ca-knR"/>
+            <connections>
+                <outlet property="lblCountryName" destination="EKP-ek-E4m" id="384-Po-w3i"/>
+                <outlet property="lblFlag" destination="aQD-8x-vo0" id="CMb-EB-Ufy"/>
+                <outlet property="lblPhoneCode" destination="vaV-Az-7UU" id="Usm-gs-zjQ"/>
+            </connections>
+            <point key="canvasLocation" x="178" y="66"/>
+        </tableViewCell>
+    </objects>
+</document>

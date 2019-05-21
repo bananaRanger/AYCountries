@@ -1,0 +1,22 @@
+{
+  "name": "AYCountries",
+  "version": "0.1.0",
+  "summary": "A short description of AYCountries.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/antonyereshchenko@gmail.com/AYCountries",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "antonyereshchenko@gmail.com": "antonyereshchenko@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/antonyereshchenko@gmail.com/AYCountries.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "AYCountries/Classes/**/*"
+}
