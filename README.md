@@ -9,7 +9,11 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Screenshots
+## About
+
+A list of countries with flags and phone codes.
+
+A single UIViewController with UITableView that display list of countries for selection.
 
 ![](https://github.com/bananaRanger/AYCountries/blob/master/Screenshots/demo.png?raw=true)
 
