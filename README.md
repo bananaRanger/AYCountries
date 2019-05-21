@@ -24,8 +24,6 @@ pod 'AYCountries'
 
 Anton Yereshchenko
 
-antonyereshchenko@gmail.com
-
 ## License
 
 AYCountries is available under the MIT license. See the LICENSE file for more info.
