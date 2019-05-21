@@ -180,34 +180,34 @@
 		4019882122942B6C00AF0822 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				4019882222942B6C00AF0822 /* countries */,
+				4019882222942B6C00AF0822 /* Countries */,
 			);
 			name = Modules;
 			path = AYCountries/Classes/Modules;
 			sourceTree = "<group>";
 		};
-		4019882222942B6C00AF0822 /* countries */ = {
+		4019882222942B6C00AF0822 /* Countries */ = {
 			isa = PBXGroup;
 			children = (
 				4019882322942B6C00AF0822 /* AYCountriesInteractor.swift */,
 				4019882422942B6C00AF0822 /* AYCountries.storyboard */,
-				4019882522942B6C00AF0822 /* models */,
+				4019882522942B6C00AF0822 /* Models */,
 				4019882822942B6C00AF0822 /* AYCountriesRouter.swift */,
 				4019882922942B6C00AF0822 /* AYCountriesConfigurator.swift */,
 				4019882A22942B6C00AF0822 /* AYCountriesPresenter.swift */,
 				4019882B22942B6C00AF0822 /* AYCountriesViewController.swift */,
 				4019882C22942B6C00AF0822 /* AYCountriesProtocols.swift */,
 			);
-			path = countries;
+			path = Countries;
 			sourceTree = "<group>";
 		};
-		4019882522942B6C00AF0822 /* models */ = {
+		4019882522942B6C00AF0822 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				4019882622942B6C00AF0822 /* AYCountry.swift */,
 				4019882722942B6C00AF0822 /* AYEmpty.swift */,
 			);
-			path = models;
+			path = Models;
 			sourceTree = "<group>";
 		};
 		4019882D22942B6C00AF0822 /* Resources */ = {

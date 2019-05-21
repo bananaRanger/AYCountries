@@ -1,24 +1,29 @@
 //
 //  ViewController.swift
-//  AYCountries
+//  AYCountries-test
 //
-//  Created by antonyereshchenko@gmail.com on 05/21/2019.
-//  Copyright (c) 2019 antonyereshchenko@gmail.com. All rights reserved.
+//  Created by Anton Yereshchenko on 5/21/19.
+//  Copyright © 2019 Anton Yereshchenko. All rights reserved.
 //
 
 import UIKit
+import AYCountries
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+  @IBOutlet weak var lblMessage: UILabel!
+  
+  @IBAction func btnSelectCountryTouchUpInside(_ sender: UIButton) {
+    let countriesVC = AYCountriesConfigurator.configure { [weak self] country, vc in
+      guard let country = country else { return }
+      self?.lblMessage.text =
+        country.flag.appending(country.name)
+          .appending("\n")
+          .appending(country.phoneCodeWithPlus())
+      vc.dismiss(animated: true, completion: nil)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
+    present(countriesVC, animated: true, completion: nil)
+  }
+  
 }
 
