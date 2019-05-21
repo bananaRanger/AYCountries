@@ -17,7 +17,12 @@ AYCountries is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'AYCountries'
+inhibit_all_warnings!
+
+target 'YOUR-TARGET-NAME' do
+  use_frameworks!
+	pod 'AYCountries'
+end
 ```
 
 ## Author
