@@ -22,7 +22,9 @@ pod 'AYCountries'
 
 ## Author
 
-antonyereshchenko@gmail.com, antonyereshchenko@gmail.com
+Anton Yereshchenko
+
+antonyereshchenko@gmail.com
 
 ## License
 
