@@ -9,7 +9,9 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+## Screenshots
+
+![](https://github.com/bananaRanger/AYCountries/blob/0.1.0/Screenshots/demo.png?raw=true)
 
 ## Installation
 
