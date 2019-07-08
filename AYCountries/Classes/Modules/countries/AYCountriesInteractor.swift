@@ -24,13 +24,15 @@ import Foundation
 
 class AYCountriesInteractor: AYCountriesInteractorProtocol {
     
-  var countries: [AYCountry] = []
-  
+  private var allCountries: [AYCountry] = []
+  private var countries: [AYCountry] = []
+
   init() {
-    self.countries = AYCountriesService.listOfCountries()
-    self.countries.sort { c1, c2 in
+    self.allCountries = AYCountriesService.listOfCountries()
+    self.allCountries.sort { c1, c2 in
       return c1.name.lowercased() < c2.name.lowercased()
     }
+    self.countries = self.allCountries
   }
   
   func country(by index: Int) -> AYCountry? {
@@ -39,6 +41,38 @@ class AYCountriesInteractor: AYCountriesInteractorProtocol {
   
   func count() -> Int {
     return countries.count
+  }
+  
+  func query(_ query: Query) {
+    switch query {
+    case .code(let code):
+      guard !code.isEmpty else {
+        countries = allCountries
+        break
+      }
+      
+      countries = allCountries.filter {
+        $0.code.lowercased().contains(code.lowercased())
+      }
+    case .name(let name):
+      guard !name.isEmpty else {
+        countries = allCountries
+        break
+      }
+      
+      countries = allCountries.filter {
+        $0.name.lowercased().contains(name.lowercased())
+      }
+    case .phone(let phone):
+      guard !phone.isEmpty else {
+        countries = allCountries
+        break
+      }
+      
+      countries = allCountries.filter {
+        $0.phoneCode.lowercased().contains(phone.lowercased())
+      }
+    }
   }
   
 }

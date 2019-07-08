@@ -31,10 +31,11 @@ protocol AYCountriesConfiguratorProtocol: class {
 
 protocol AYCountriesPresenterProtocol: class {
   var view: AYCountriesViewProtocol? { get set }
-  var cellModel: AYCellAnyViewModel.Type { get }
+  var cellModels: [AYCellAnyViewModel.Type] { get }
   var completionHandler: AYCountriesCompletionHandler? { get set }
   var defaultNumberOfRowsInSection: Int { get }
   func configureView()
+  func query(_ query: Query) 
   func numberOfRowsInSection() -> Int
   func model(with indexPath: IndexPath) -> AYCellAnyViewModel?
   func selectCell(with indexPath: IndexPath)
@@ -43,6 +44,7 @@ protocol AYCountriesPresenterProtocol: class {
 protocol AYCountriesInteractorProtocol: class {
   func country(by indexPath: Int) -> AYCountry?
   func count() -> Int
+  func query(_ query: Query) 
 }
 
 protocol AYCountriesRouterProtocol: class {

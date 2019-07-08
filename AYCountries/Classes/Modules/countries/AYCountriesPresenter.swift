@@ -27,11 +27,8 @@ class AYCountriesPresenter: AYCountriesPresenterProtocol {
   var router: AYCountriesRouterProtocol?
   var interactor: AYCountriesInteractorProtocol?
   
-  var cellModel: AYCellAnyViewModel.Type {
-    if interactor?.count() == 0 {
-      return AYEmpty.self
-    }
-    return AYCountry.self
+  var cellModels: [AYCellAnyViewModel.Type] {
+    return [AYCountry.self, AYEmpty.self]
   }
   
   var completionHandler: AYCountriesCompletionHandler?
@@ -43,6 +40,11 @@ class AYCountriesPresenter: AYCountriesPresenterProtocol {
   }
   
   func configureView() {
+    view?.reload()
+  }
+  
+  public func query(_ query: Query) {
+    interactor?.query(query)
     view?.reload()
   }
   

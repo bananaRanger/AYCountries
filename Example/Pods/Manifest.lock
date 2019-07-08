@@ -1,5 +1,5 @@
 PODS:
-  - AYCountries (0.1.0)
+  - AYCountries (1.0.0)
 
 DEPENDENCIES:
   - AYCountries (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AYCountries: b3bd0deab2125d3f4e9846b4b6375b54e0d1175c
+  AYCountries: 7773afccc0935cc39063833c499bc72460fb28ea
 
 PODFILE CHECKSUM: bd553be2b87da4793242ed55db125ee2d857954b
 
-COCOAPODS: 1.6.0
+COCOAPODS: 1.7.3

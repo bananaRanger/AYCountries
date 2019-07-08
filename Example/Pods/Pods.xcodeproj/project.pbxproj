@@ -7,322 +7,290 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		29BABE95BD6F3525813D7965396F8614 /* Pods-AYCountries_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5575821C0B094F9C03DEEBB35F3791A5 /* Pods-AYCountries_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		33470D8D3FEEEFD8A125A5FC731D25EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		4019883722942B6C00AF0822 /* NSLocale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4019881A22942B6C00AF0822 /* NSLocale.swift */; };
-		4019883822942B6C00AF0822 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4019881B22942B6C00AF0822 /* UITableView.swift */; };
-		4019883922942B6C00AF0822 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4019881C22942B6C00AF0822 /* String.swift */; };
-		4019883A22942B6C00AF0822 /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4019881D22942B6C00AF0822 /* UIStoryboard.swift */; };
-		4019883B22942B6C00AF0822 /* AYCountriesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4019881F22942B6C00AF0822 /* AYCountriesService.swift */; };
-		4019883C22942B6C00AF0822 /* AYFileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4019882022942B6C00AF0822 /* AYFileService.swift */; };
-		4019883D22942B6C00AF0822 /* AYCountriesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4019882322942B6C00AF0822 /* AYCountriesInteractor.swift */; };
-		4019883E22942B6C00AF0822 /* AYCountries.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4019882422942B6C00AF0822 /* AYCountries.storyboard */; };
-		4019883F22942B6C00AF0822 /* AYCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4019882622942B6C00AF0822 /* AYCountry.swift */; };
-		4019884022942B6C00AF0822 /* AYEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4019882722942B6C00AF0822 /* AYEmpty.swift */; };
-		4019884122942B6C00AF0822 /* AYCountriesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4019882822942B6C00AF0822 /* AYCountriesRouter.swift */; };
-		4019884222942B6C00AF0822 /* AYCountriesConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4019882922942B6C00AF0822 /* AYCountriesConfigurator.swift */; };
-		4019884322942B6C00AF0822 /* AYCountriesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4019882A22942B6C00AF0822 /* AYCountriesPresenter.swift */; };
-		4019884422942B6C00AF0822 /* AYCountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4019882B22942B6C00AF0822 /* AYCountriesViewController.swift */; };
-		4019884522942B6C00AF0822 /* AYCountriesProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4019882C22942B6C00AF0822 /* AYCountriesProtocols.swift */; };
-		4019884622942B6C00AF0822 /* code.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4019882E22942B6C00AF0822 /* code.plist */; };
-		4019884722942B6C00AF0822 /* AYEmptyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4019883022942B6C00AF0822 /* AYEmptyTableViewCell.swift */; };
-		4019884822942B6C00AF0822 /* AYCountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4019883122942B6C00AF0822 /* AYCountryTableViewCell.swift */; };
-		4019884922942B6C00AF0822 /* AYCountryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4019883222942B6C00AF0822 /* AYCountryTableViewCell.xib */; };
-		4019884A22942B6C00AF0822 /* AYCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4019883322942B6C00AF0822 /* AYCellViewModel.swift */; };
-		4019884B22942B6C00AF0822 /* AYEmptyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4019883422942B6C00AF0822 /* AYEmptyTableViewCell.xib */; };
-		4019884C22942B6C00AF0822 /* StoryboardLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4019883622942B6C00AF0822 /* StoryboardLoadable.swift */; };
-		657B44AB7BB734FF583E55C4D66F5274 /* Pods-AYCountries_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D89BCFE1C14D1A89B6A4BE1703080646 /* Pods-AYCountries_Tests-dummy.m */; };
-		79A9285C1FFE88D4AE63D1F92668D4DE /* AYCountries-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C1339B0E81464179C2C4C248576BA1F1 /* AYCountries-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8C128A0BA79FC8923521FF7C82BAF24B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		9214E661530C83B32892F31336EC42BF /* Pods-AYCountries_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C99834B0CC6E7EB3578FEACBA86ECD18 /* Pods-AYCountries_Example-dummy.m */; };
-		A954FF138D44FFEA32D24E704424BAB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		BA0B8495E0708281F64B47EFDFDAC20A /* AYCountries-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C70097D40B5DAE59378C74C26DB1BAE7 /* AYCountries-dummy.m */; };
-		E5EE5A84BBE8254D3FF82EC1D34923EB /* Pods-AYCountries_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D44EF5F86ACADA413BD4798BB3C2850 /* Pods-AYCountries_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0058C0622FCDE7657FFAEE829560E75B /* AYCountries-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B8411656EF9E1AAE5C79D9E5A8937C99 /* AYCountries-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		076551CFE90B3C30B7DD96EFAA5FCDA6 /* AYCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E3CDF48865823A34DBC5CAB12A15693 /* AYCellViewModel.swift */; };
+		07A7543391365B7F01C08F9D3F48B436 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		1C95D6A3EFC9939FF64BA1833B830273 /* NSLocale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F1B488D9A516A202A7A33761DBB9F62 /* NSLocale.swift */; };
+		2D71BB6D3DEB77DE497CF2D1E8E00136 /* AYCountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26DADD37662A1535BDEBCD186295128D /* AYCountryTableViewCell.swift */; };
+		2E504203601C7BF9284FF1929833C65A /* AYCountriesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA100BB90E0DA1458A878945E2D7BFC /* AYCountriesInteractor.swift */; };
+		328AA940C32B229F9927552A51C1596E /* Pods-AYCountries_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA452DC961DA3A477EBA909673C541D /* Pods-AYCountries_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		405DBB777234FAF01DDB0A16647F80FB /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3EA37CC2590436E0A970BD8D5D2073 /* String.swift */; };
+		40A2F19D22D35A5800EC67A8 /* AYEmptyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A2F19B22D35A5700EC67A8 /* AYEmptyTableViewCell.swift */; };
+		40A2F19E22D35A5800EC67A8 /* AYEmptyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40A2F19C22D35A5800EC67A8 /* AYEmptyTableViewCell.xib */; };
+		56353F58003F2EF49CE78379FB87DF7F /* AYCountriesConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50532EC4DE2BF0068755AB7E62B879E1 /* AYCountriesConfigurator.swift */; };
+		563CE6D866A18173536311344FD5F660 /* AYEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A70A2A91DEFEE29BA399DC325F1A872 /* AYEmpty.swift */; };
+		586A961E42A5D48AA79AFF6071FCEA5D /* Pods-AYCountries_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9607E7904B955896531309AA8B2C2D3D /* Pods-AYCountries_Example-dummy.m */; };
+		62562016BFA2AC6174C06483018FBBFB /* AYCountriesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4B492758597304411F86F83D76BD55 /* AYCountriesRouter.swift */; };
+		6427C2AC4035FB70D80F09704B9D4276 /* AYCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E319C0F6E98B1556DFE2990EB9457C /* AYCountry.swift */; };
+		664B281263B295CE54BCECDBFCC9D7BD /* Pods-AYCountries_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE16CF2460FA680AEC1D63D0B332D3B5 /* Pods-AYCountries_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E79E1A179000C3348E5E770985B14E7 /* Pods-AYCountries_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F821EB276DEE7073BCE2C4BC5150DB /* Pods-AYCountries_Tests-dummy.m */; };
+		88389283C3FEDCF3B0A917362B255504 /* AYCountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 301275B5682145A49FC898004AAAE426 /* AYCountriesViewController.swift */; };
+		8E31384DB9795388CE233A2BB4540220 /* code.plist in Sources */ = {isa = PBXBuildFile; fileRef = 75DA691E8F7B7D9585644E926FC96F51 /* code.plist */; };
+		A613F1F5DB3E9E98CE87209E2315DA12 /* AYCountriesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B2F4E052210D9B62F9B115D74C80DAC /* AYCountriesPresenter.swift */; };
+		AB00C05D60820097751FA403F33759DD /* StoryboardLoadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A343D378ED5C51CBEB1B373FC939B95 /* StoryboardLoadable.swift */; };
+		B291FF6D177C6B226561F3C46AF95297 /* AYCountryTableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 35DF7E7CD40FAE019AC524DE1798A24A /* AYCountryTableViewCell.xib */; };
+		B77145713DCBB962672B294C8CC23050 /* AYCountriesProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3436CDB90E1402BB38D73C35F6CC9D00 /* AYCountriesProtocols.swift */; };
+		C7D144ABE01A517D2B5D5364331ADBF4 /* AYCountries.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = AB78C688E8FC8E9E81595969E5B8801E /* AYCountries.storyboard */; };
+		CDEA58EC320FACDFA86369F9FFD373F1 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB720DFEBB0BB5D1C1B9992C49AF1AA4 /* UITableView.swift */; };
+		CF7FACC06B43B40261A2A90194AAA6D6 /* AYCountriesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D61F2191A89254FBBBA466B9DCE95D71 /* AYCountriesService.swift */; };
+		D0B507710F558202DDB31DDBFD1C563E /* AYFileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC3F8AE6D3CA9C9858C0162BEF15EE1 /* AYFileService.swift */; };
+		D111E3F299FF2A659B3A42537F5956F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		DBC9030C86218788F5C9BDF84BCEF462 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		F6E3DA28DC459C429E8DAC4D525171B2 /* AYCountries-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A7DF81446B846F27E986CEA1CCF396C /* AYCountries-dummy.m */; };
+		FD857DC367F0CECDDF4B2A19FE2F2415 /* UIStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0424DECBF33F149E717A5259FA82E7 /* UIStoryboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		035597C05CAD10D772FC15251295A9A3 /* PBXContainerItemProxy */ = {
+		9E8B42A259CF4E10B67DEC47FA9FD60A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FD544B6722D16EC9480E9D5533CCBBB3;
-			remoteInfo = AYCountries;
-		};
-		CBA17541F48D80A6CB11FC9EEAD67E22 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1C2A02B8A6361E3EE860C97537850742;
+			remoteGlobalIDString = 592AB7F325F3A7CAEDB3F8DD978A2EFB;
 			remoteInfo = "Pods-AYCountries_Example";
+		};
+		D121C53651C108860732F9192A266F8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7D40C07E3882DB710543BD42FB5FDB5;
+			remoteInfo = AYCountries;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		092C76BB5B12B10513A8E798E04EACBA /* AYCountries.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AYCountries.xcconfig; sourceTree = "<group>"; };
-		2B36A3379AD8FC5DA0DBF0680941A253 /* Pods-AYCountries_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AYCountries_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		2D5B008961105B417C529D751B1600B4 /* Pods-AYCountries_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AYCountries_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3F6331DE65776F370CF76F7F7FD916A1 /* Pods-AYCountries_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AYCountries_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		4019881A22942B6C00AF0822 /* NSLocale.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSLocale.swift; sourceTree = "<group>"; };
-		4019881B22942B6C00AF0822 /* UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
-		4019881C22942B6C00AF0822 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
-		4019881D22942B6C00AF0822 /* UIStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIStoryboard.swift; sourceTree = "<group>"; };
-		4019881F22942B6C00AF0822 /* AYCountriesService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYCountriesService.swift; sourceTree = "<group>"; };
-		4019882022942B6C00AF0822 /* AYFileService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYFileService.swift; sourceTree = "<group>"; };
-		4019882322942B6C00AF0822 /* AYCountriesInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYCountriesInteractor.swift; sourceTree = "<group>"; };
-		4019882422942B6C00AF0822 /* AYCountries.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AYCountries.storyboard; sourceTree = "<group>"; };
-		4019882622942B6C00AF0822 /* AYCountry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYCountry.swift; sourceTree = "<group>"; };
-		4019882722942B6C00AF0822 /* AYEmpty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYEmpty.swift; sourceTree = "<group>"; };
-		4019882822942B6C00AF0822 /* AYCountriesRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYCountriesRouter.swift; sourceTree = "<group>"; };
-		4019882922942B6C00AF0822 /* AYCountriesConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYCountriesConfigurator.swift; sourceTree = "<group>"; };
-		4019882A22942B6C00AF0822 /* AYCountriesPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYCountriesPresenter.swift; sourceTree = "<group>"; };
-		4019882B22942B6C00AF0822 /* AYCountriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYCountriesViewController.swift; sourceTree = "<group>"; };
-		4019882C22942B6C00AF0822 /* AYCountriesProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYCountriesProtocols.swift; sourceTree = "<group>"; };
-		4019882E22942B6C00AF0822 /* code.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = code.plist; sourceTree = "<group>"; };
-		4019883022942B6C00AF0822 /* AYEmptyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYEmptyTableViewCell.swift; sourceTree = "<group>"; };
-		4019883122942B6C00AF0822 /* AYCountryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYCountryTableViewCell.swift; sourceTree = "<group>"; };
-		4019883222942B6C00AF0822 /* AYCountryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AYCountryTableViewCell.xib; sourceTree = "<group>"; };
-		4019883322942B6C00AF0822 /* AYCellViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYCellViewModel.swift; sourceTree = "<group>"; };
-		4019883422942B6C00AF0822 /* AYEmptyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AYEmptyTableViewCell.xib; sourceTree = "<group>"; };
-		4019883622942B6C00AF0822 /* StoryboardLoadable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardLoadable.swift; sourceTree = "<group>"; };
-		4173314CCD7DA1632CFE0FE881A87758 /* Pods-AYCountries_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AYCountries_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4709DFFBFCC66625B31742CF9EBC4B4E /* Pods-AYCountries_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AYCountries_Tests.modulemap"; sourceTree = "<group>"; };
-		4D44EF5F86ACADA413BD4798BB3C2850 /* Pods-AYCountries_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AYCountries_Example-umbrella.h"; sourceTree = "<group>"; };
-		4E67A113A242D694A0068F8345ADE25F /* AYCountries.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AYCountries.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4F26C266DB736D5A8CB999232330696D /* AYCountries-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AYCountries-Info.plist"; sourceTree = "<group>"; };
-		519C62DA7DF9C9F807D9F4FC82342B12 /* Pods-AYCountries_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AYCountries_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		5575821C0B094F9C03DEEBB35F3791A5 /* Pods-AYCountries_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AYCountries_Tests-umbrella.h"; sourceTree = "<group>"; };
-		5CD53FA3233967FEECDA57E1F461E85A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		65214C557AD8110928451F7F0F839F6F /* Pods-AYCountries_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AYCountries_Example.modulemap"; sourceTree = "<group>"; };
-		681338EE3E7CB2B971B08AFCA58B999F /* Pods-AYCountries_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AYCountries_Example-Info.plist"; sourceTree = "<group>"; };
-		68713428306A4A9801A4C2B506E0BCB5 /* Pods_AYCountries_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AYCountries_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		71FFA6FE26E6F8A05736CB60C990F985 /* AYCountries.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AYCountries.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		88154B6486E00B17EAB6CADB3BD61505 /* Pods-AYCountries_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AYCountries_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		88166AD459249063067C7AC4DE9DD555 /* AYCountries-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AYCountries-prefix.pch"; sourceTree = "<group>"; };
-		8AEADE0299D20DE0EECF103E9B8B22A0 /* Pods-AYCountries_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AYCountries_Tests-Info.plist"; sourceTree = "<group>"; };
+		0A70A2A91DEFEE29BA399DC325F1A872 /* AYEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYEmpty.swift; sourceTree = "<group>"; };
+		1F1B488D9A516A202A7A33761DBB9F62 /* NSLocale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NSLocale.swift; sourceTree = "<group>"; };
+		2589B4F59E33669FAB1C8FAF5E030A19 /* AYCountries.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AYCountries.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26DADD37662A1535BDEBCD186295128D /* AYCountryTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYCountryTableViewCell.swift; sourceTree = "<group>"; };
+		2B76AF683B7A0257A1C980008FEA2E4B /* Pods-AYCountries_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AYCountries_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2FE8FF6E28D2E99AAA07EAC1C5782C2B /* Pods-AYCountries_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AYCountries_Example.release.xcconfig"; sourceTree = "<group>"; };
+		301275B5682145A49FC898004AAAE426 /* AYCountriesViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYCountriesViewController.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3436CDB90E1402BB38D73C35F6CC9D00 /* AYCountriesProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYCountriesProtocols.swift; sourceTree = "<group>"; };
+		35DF7E7CD40FAE019AC524DE1798A24A /* AYCountryTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = AYCountryTableViewCell.xib; sourceTree = "<group>"; };
+		3A343D378ED5C51CBEB1B373FC939B95 /* StoryboardLoadable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StoryboardLoadable.swift; sourceTree = "<group>"; };
+		40A2F19B22D35A5700EC67A8 /* AYEmptyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYEmptyTableViewCell.swift; sourceTree = "<group>"; };
+		40A2F19C22D35A5800EC67A8 /* AYEmptyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AYEmptyTableViewCell.xib; sourceTree = "<group>"; };
+		41164F62B19ECABBC6129F47C92852AD /* Pods-AYCountries_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AYCountries_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		50532EC4DE2BF0068755AB7E62B879E1 /* AYCountriesConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYCountriesConfigurator.swift; sourceTree = "<group>"; };
+		5C0424DECBF33F149E717A5259FA82E7 /* UIStoryboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIStoryboard.swift; sourceTree = "<group>"; };
+		5D0ECEE6E75ACE4057FEEFEB8B46E9CF /* AYCountries.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AYCountries.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5E0236F118785A8806633DFB7517DE45 /* Pods-AYCountries_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AYCountries_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		671EC94B036A6470BE9EFD8222B4B8F6 /* Pods-AYCountries_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AYCountries_Example.modulemap"; sourceTree = "<group>"; };
+		6A7DF81446B846F27E986CEA1CCF396C /* AYCountries-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AYCountries-dummy.m"; sourceTree = "<group>"; };
+		6BA100BB90E0DA1458A878945E2D7BFC /* AYCountriesInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYCountriesInteractor.swift; sourceTree = "<group>"; };
+		6DFE119C58797B6A1546984C39ED0AA0 /* Pods_AYCountries_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AYCountries_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EC3F8AE6D3CA9C9858C0162BEF15EE1 /* AYFileService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYFileService.swift; sourceTree = "<group>"; };
+		744B954E490ACBA61D5BF54D34FEA42F /* AYCountries-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AYCountries-prefix.pch"; sourceTree = "<group>"; };
+		75DA691E8F7B7D9585644E926FC96F51 /* code.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = code.plist; sourceTree = "<group>"; };
+		7B2F4E052210D9B62F9B115D74C80DAC /* AYCountriesPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYCountriesPresenter.swift; sourceTree = "<group>"; };
+		7E3CDF48865823A34DBC5CAB12A15693 /* AYCellViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYCellViewModel.swift; sourceTree = "<group>"; };
+		7E59CCBFB7A6135CB7FCB4B4E5F23ECF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		824E5A9E9B109D1FBD65794516A43678 /* AYCountries-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AYCountries-Info.plist"; sourceTree = "<group>"; };
+		8B3EA37CC2590436E0A970BD8D5D2073 /* String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		9607E7904B955896531309AA8B2C2D3D /* Pods-AYCountries_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AYCountries_Example-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		ACC390D7D621B97C05D50749B547C50C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		AFFBADB7B7A2FD79BEA1DA61C4D8E9BD /* Pods_AYCountries_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AYCountries_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C03A0C47634E1A0E3070C2E51E4572CB /* AYCountries.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AYCountries.modulemap; sourceTree = "<group>"; };
-		C1339B0E81464179C2C4C248576BA1F1 /* AYCountries-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AYCountries-umbrella.h"; sourceTree = "<group>"; };
-		C70097D40B5DAE59378C74C26DB1BAE7 /* AYCountries-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AYCountries-dummy.m"; sourceTree = "<group>"; };
-		C796E0F9966A134529D3E85AAB9EB17A /* Pods-AYCountries_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AYCountries_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C99834B0CC6E7EB3578FEACBA86ECD18 /* Pods-AYCountries_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AYCountries_Example-dummy.m"; sourceTree = "<group>"; };
-		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D89BCFE1C14D1A89B6A4BE1703080646 /* Pods-AYCountries_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AYCountries_Tests-dummy.m"; sourceTree = "<group>"; };
-		D91E44945D0A1C3A6AB9E11768A6A965 /* Pods-AYCountries_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AYCountries_Example-frameworks.sh"; sourceTree = "<group>"; };
-		DA0DB9BA29543A52CB7AEE6D3BC4E01D /* Pods-AYCountries_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AYCountries_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A00E61687557470BBF91F8AD3D449F9E /* Pods_AYCountries_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AYCountries_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F10A7ED615EE74A4028E385A7A30EC /* Pods-AYCountries_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AYCountries_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		AB78C688E8FC8E9E81595969E5B8801E /* AYCountries.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = AYCountries.storyboard; sourceTree = "<group>"; };
+		AEA452DC961DA3A477EBA909673C541D /* Pods-AYCountries_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AYCountries_Tests-umbrella.h"; sourceTree = "<group>"; };
+		B5F821EB276DEE7073BCE2C4BC5150DB /* Pods-AYCountries_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AYCountries_Tests-dummy.m"; sourceTree = "<group>"; };
+		B7E537B3CC3A905096B4CEB9149A5D3A /* Pods-AYCountries_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AYCountries_Example-Info.plist"; sourceTree = "<group>"; };
+		B8411656EF9E1AAE5C79D9E5A8937C99 /* AYCountries-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AYCountries-umbrella.h"; sourceTree = "<group>"; };
+		B8E319C0F6E98B1556DFE2990EB9457C /* AYCountry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYCountry.swift; sourceTree = "<group>"; };
+		B903709BE9C5CBBC9E7A16F8B74C2809 /* Pods-AYCountries_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AYCountries_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B99C2915AF8B346915C7CDF4B9A14917 /* Pods-AYCountries_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AYCountries_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D5A4703FCEA70EE92EFE8B5DF684C2B7 /* AYCountries.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AYCountries.modulemap; sourceTree = "<group>"; };
+		D61F2191A89254FBBBA466B9DCE95D71 /* AYCountriesService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYCountriesService.swift; sourceTree = "<group>"; };
+		D641C35935EB91236BB0661CF277749E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DA0CCC60B4499F1FC67E99EAE33C25AC /* AYCountries.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AYCountries.xcconfig; sourceTree = "<group>"; };
+		E37ACA3AD6F18E9C3F7BCBA8A066A054 /* Pods-AYCountries_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AYCountries_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E4C56B726ED828CAD78E54BC719A96DE /* Pods-AYCountries_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AYCountries_Tests-Info.plist"; sourceTree = "<group>"; };
+		EB4B492758597304411F86F83D76BD55 /* AYCountriesRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYCountriesRouter.swift; sourceTree = "<group>"; };
+		EB720DFEBB0BB5D1C1B9992C49AF1AA4 /* UITableView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
+		EE16CF2460FA680AEC1D63D0B332D3B5 /* Pods-AYCountries_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AYCountries_Example-umbrella.h"; sourceTree = "<group>"; };
+		FDDAFB5F258FB8122B937D24A509F635 /* Pods-AYCountries_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AYCountries_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FEC9A134A0B35C55B0F0AC9AA45C8E53 /* Pods-AYCountries_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AYCountries_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0C010568E1DA8989465140D0D1E13B6A /* Frameworks */ = {
+		A30CFE0E2A0F1992715A819C02FAE080 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C128A0BA79FC8923521FF7C82BAF24B /* Foundation.framework in Frameworks */,
+				D111E3F299FF2A659B3A42537F5956F0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		365CA727FE184ACF1E93AD1519A9971E /* Frameworks */ = {
+		D456D14FD5FF963845F18BF387608388 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33470D8D3FEEEFD8A125A5FC731D25EB /* Foundation.framework in Frameworks */,
+				07A7543391365B7F01C08F9D3F48B436 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7BE2FE66CE1BB96DF1ABF27ADF342680 /* Frameworks */ = {
+		F92E9125C65045A08EF93CF324602142 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A954FF138D44FFEA32D24E704424BAB4 /* Foundation.framework in Frameworks */,
+				DBC9030C86218788F5C9BDF84BCEF462 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		327E063E640C370FABFB13BA69A6223B /* Support Files */ = {
+		0F416C82DB8D5AD7DA8B428F814659DB /* countries */ = {
 			isa = PBXGroup;
 			children = (
-				C03A0C47634E1A0E3070C2E51E4572CB /* AYCountries.modulemap */,
-				092C76BB5B12B10513A8E798E04EACBA /* AYCountries.xcconfig */,
-				C70097D40B5DAE59378C74C26DB1BAE7 /* AYCountries-dummy.m */,
-				4F26C266DB736D5A8CB999232330696D /* AYCountries-Info.plist */,
-				88166AD459249063067C7AC4DE9DD555 /* AYCountries-prefix.pch */,
-				C1339B0E81464179C2C4C248576BA1F1 /* AYCountries-umbrella.h */,
+				AB78C688E8FC8E9E81595969E5B8801E /* AYCountries.storyboard */,
+				50532EC4DE2BF0068755AB7E62B879E1 /* AYCountriesConfigurator.swift */,
+				6BA100BB90E0DA1458A878945E2D7BFC /* AYCountriesInteractor.swift */,
+				7B2F4E052210D9B62F9B115D74C80DAC /* AYCountriesPresenter.swift */,
+				3436CDB90E1402BB38D73C35F6CC9D00 /* AYCountriesProtocols.swift */,
+				EB4B492758597304411F86F83D76BD55 /* AYCountriesRouter.swift */,
+				301275B5682145A49FC898004AAAE426 /* AYCountriesViewController.swift */,
+				28D1A006D01CBC4F563426CFA8FC0A64 /* models */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AYCountries";
+			path = countries;
 			sourceTree = "<group>";
 		};
-		4019881922942B6C00AF0822 /* Extensions */ = {
+		216F59D65F9BDC3A5A607FB822B7E7B6 /* Pods-AYCountries_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				4019881A22942B6C00AF0822 /* NSLocale.swift */,
-				4019881B22942B6C00AF0822 /* UITableView.swift */,
-				4019881C22942B6C00AF0822 /* String.swift */,
-				4019881D22942B6C00AF0822 /* UIStoryboard.swift */,
-			);
-			name = Extensions;
-			path = AYCountries/Classes/Extensions;
-			sourceTree = "<group>";
-		};
-		4019881E22942B6C00AF0822 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				4019881F22942B6C00AF0822 /* AYCountriesService.swift */,
-				4019882022942B6C00AF0822 /* AYFileService.swift */,
-			);
-			name = Services;
-			path = AYCountries/Classes/Services;
-			sourceTree = "<group>";
-		};
-		4019882122942B6C00AF0822 /* Modules */ = {
-			isa = PBXGroup;
-			children = (
-				4019882222942B6C00AF0822 /* Countries */,
-			);
-			name = Modules;
-			path = AYCountries/Classes/Modules;
-			sourceTree = "<group>";
-		};
-		4019882222942B6C00AF0822 /* Countries */ = {
-			isa = PBXGroup;
-			children = (
-				4019882322942B6C00AF0822 /* AYCountriesInteractor.swift */,
-				4019882422942B6C00AF0822 /* AYCountries.storyboard */,
-				4019882522942B6C00AF0822 /* Models */,
-				4019882822942B6C00AF0822 /* AYCountriesRouter.swift */,
-				4019882922942B6C00AF0822 /* AYCountriesConfigurator.swift */,
-				4019882A22942B6C00AF0822 /* AYCountriesPresenter.swift */,
-				4019882B22942B6C00AF0822 /* AYCountriesViewController.swift */,
-				4019882C22942B6C00AF0822 /* AYCountriesProtocols.swift */,
-			);
-			path = Countries;
-			sourceTree = "<group>";
-		};
-		4019882522942B6C00AF0822 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				4019882622942B6C00AF0822 /* AYCountry.swift */,
-				4019882722942B6C00AF0822 /* AYEmpty.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		4019882D22942B6C00AF0822 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				4019882E22942B6C00AF0822 /* code.plist */,
-			);
-			name = Resources;
-			path = AYCountries/Classes/Resources;
-			sourceTree = "<group>";
-		};
-		4019882F22942B6C00AF0822 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				4019883022942B6C00AF0822 /* AYEmptyTableViewCell.swift */,
-				4019883122942B6C00AF0822 /* AYCountryTableViewCell.swift */,
-				4019883222942B6C00AF0822 /* AYCountryTableViewCell.xib */,
-				4019883322942B6C00AF0822 /* AYCellViewModel.swift */,
-				4019883422942B6C00AF0822 /* AYEmptyTableViewCell.xib */,
-			);
-			name = Views;
-			path = AYCountries/Classes/Views;
-			sourceTree = "<group>";
-		};
-		4019883522942B6C00AF0822 /* Helpers */ = {
-			isa = PBXGroup;
-			children = (
-				4019883622942B6C00AF0822 /* StoryboardLoadable.swift */,
-			);
-			name = Helpers;
-			path = AYCountries/Classes/Helpers;
-			sourceTree = "<group>";
-		};
-		4D7205B7AEE402433D29FAAD419644B7 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F78DAEA9820656AF4333FC0774C24C4F /* Pods-AYCountries_Example */,
-				522EBA6D0F3958223B335105AA6DB40E /* Pods-AYCountries_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		522EBA6D0F3958223B335105AA6DB40E /* Pods-AYCountries_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				4709DFFBFCC66625B31742CF9EBC4B4E /* Pods-AYCountries_Tests.modulemap */,
-				519C62DA7DF9C9F807D9F4FC82342B12 /* Pods-AYCountries_Tests-acknowledgements.markdown */,
-				2B36A3379AD8FC5DA0DBF0680941A253 /* Pods-AYCountries_Tests-acknowledgements.plist */,
-				D89BCFE1C14D1A89B6A4BE1703080646 /* Pods-AYCountries_Tests-dummy.m */,
-				8AEADE0299D20DE0EECF103E9B8B22A0 /* Pods-AYCountries_Tests-Info.plist */,
-				5575821C0B094F9C03DEEBB35F3791A5 /* Pods-AYCountries_Tests-umbrella.h */,
-				88154B6486E00B17EAB6CADB3BD61505 /* Pods-AYCountries_Tests.debug.xcconfig */,
-				DA0DB9BA29543A52CB7AEE6D3BC4E01D /* Pods-AYCountries_Tests.release.xcconfig */,
+				FEC9A134A0B35C55B0F0AC9AA45C8E53 /* Pods-AYCountries_Tests.modulemap */,
+				41164F62B19ECABBC6129F47C92852AD /* Pods-AYCountries_Tests-acknowledgements.markdown */,
+				5E0236F118785A8806633DFB7517DE45 /* Pods-AYCountries_Tests-acknowledgements.plist */,
+				B5F821EB276DEE7073BCE2C4BC5150DB /* Pods-AYCountries_Tests-dummy.m */,
+				E4C56B726ED828CAD78E54BC719A96DE /* Pods-AYCountries_Tests-Info.plist */,
+				AEA452DC961DA3A477EBA909673C541D /* Pods-AYCountries_Tests-umbrella.h */,
+				B903709BE9C5CBBC9E7A16F8B74C2809 /* Pods-AYCountries_Tests.debug.xcconfig */,
+				B99C2915AF8B346915C7CDF4B9A14917 /* Pods-AYCountries_Tests.release.xcconfig */,
 			);
 			name = "Pods-AYCountries_Tests";
 			path = "Target Support Files/Pods-AYCountries_Tests";
 			sourceTree = "<group>";
 		};
-		5D7517060B9116074C7F59C0D52DB2A2 /* AYCountries */ = {
+		28D1A006D01CBC4F563426CFA8FC0A64 /* models */ = {
 			isa = PBXGroup;
 			children = (
-				4019881922942B6C00AF0822 /* Extensions */,
-				4019883522942B6C00AF0822 /* Helpers */,
-				4019882122942B6C00AF0822 /* Modules */,
-				4019882D22942B6C00AF0822 /* Resources */,
-				4019881E22942B6C00AF0822 /* Services */,
-				4019882F22942B6C00AF0822 /* Views */,
-				B624BCA14CF38D230B0F3BA5675FEC3C /* Pod */,
-				327E063E640C370FABFB13BA69A6223B /* Support Files */,
+				B8E319C0F6E98B1556DFE2990EB9457C /* AYCountry.swift */,
+				0A70A2A91DEFEE29BA399DC325F1A872 /* AYEmpty.swift */,
 			);
-			name = AYCountries;
-			path = ../..;
+			path = models;
 			sourceTree = "<group>";
 		};
-		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+		3738536307E3485812201FE0F5F328FB /* Pods-AYCountries_Example */ = {
 			isa = PBXGroup;
 			children = (
-				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+				671EC94B036A6470BE9EFD8222B4B8F6 /* Pods-AYCountries_Example.modulemap */,
+				2B76AF683B7A0257A1C980008FEA2E4B /* Pods-AYCountries_Example-acknowledgements.markdown */,
+				A1F10A7ED615EE74A4028E385A7A30EC /* Pods-AYCountries_Example-acknowledgements.plist */,
+				9607E7904B955896531309AA8B2C2D3D /* Pods-AYCountries_Example-dummy.m */,
+				FDDAFB5F258FB8122B937D24A509F635 /* Pods-AYCountries_Example-frameworks.sh */,
+				B7E537B3CC3A905096B4CEB9149A5D3A /* Pods-AYCountries_Example-Info.plist */,
+				EE16CF2460FA680AEC1D63D0B332D3B5 /* Pods-AYCountries_Example-umbrella.h */,
+				E37ACA3AD6F18E9C3F7BCBA8A066A054 /* Pods-AYCountries_Example.debug.xcconfig */,
+				2FE8FF6E28D2E99AAA07EAC1C5782C2B /* Pods-AYCountries_Example.release.xcconfig */,
 			);
-			name = iOS;
+			name = "Pods-AYCountries_Example";
+			path = "Target Support Files/Pods-AYCountries_Example";
 			sourceTree = "<group>";
 		};
-		B624BCA14CF38D230B0F3BA5675FEC3C /* Pod */ = {
+		4D7205B7AEE402433D29FAAD419644B7 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				71FFA6FE26E6F8A05736CB60C990F985 /* AYCountries.podspec */,
-				5CD53FA3233967FEECDA57E1F461E85A /* LICENSE */,
-				ACC390D7D621B97C05D50749B547C50C /* README.md */,
+				3738536307E3485812201FE0F5F328FB /* Pods-AYCountries_Example */,
+				216F59D65F9BDC3A5A607FB822B7E7B6 /* Pods-AYCountries_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		79164538D473933C558734ECB93783F6 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3A343D378ED5C51CBEB1B373FC939B95 /* StoryboardLoadable.swift */,
+			);
+			name = Helpers;
+			path = AYCountries/Classes/Helpers;
+			sourceTree = "<group>";
+		};
+		934F855140A5EDF7F647091EA8F90D6E /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				0F416C82DB8D5AD7DA8B428F814659DB /* countries */,
+			);
+			name = Modules;
+			path = AYCountries/Classes/Modules;
+			sourceTree = "<group>";
+		};
+		9489EA1D3C9864C178DAD8A013601AD0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				75DA691E8F7B7D9585644E926FC96F51 /* code.plist */,
+			);
+			name = Resources;
+			path = AYCountries/Classes/Resources;
+			sourceTree = "<group>";
+		};
+		A2DF03BF1486B080D75C0A0109780DA3 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D61F2191A89254FBBBA466B9DCE95D71 /* AYCountriesService.swift */,
+				6EC3F8AE6D3CA9C9858C0162BEF15EE1 /* AYFileService.swift */,
+			);
+			name = Services;
+			path = AYCountries/Classes/Services;
+			sourceTree = "<group>";
+		};
+		BDD0BDC8D78A4B808D2CF7299E6CE824 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				5D0ECEE6E75ACE4057FEEFEB8B46E9CF /* AYCountries.podspec */,
+				7E59CCBFB7A6135CB7FCB4B4E5F23ECF /* LICENSE */,
+				D641C35935EB91236BB0661CF277749E /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		BAB3E760E6619F4BE36DC3C8375E7C70 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5D7517060B9116074C7F59C0D52DB2A2 /* AYCountries */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		BDDBD32CBDB857A5062A60D4116D0C52 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4E67A113A242D694A0068F8345ADE25F /* AYCountries.framework */,
-				68713428306A4A9801A4C2B506E0BCB5 /* Pods_AYCountries_Example.framework */,
-				AFFBADB7B7A2FD79BEA1DA61C4D8E9BD /* Pods_AYCountries_Tests.framework */,
+				2589B4F59E33669FAB1C8FAF5E030A19 /* AYCountries.framework */,
+				6DFE119C58797B6A1546984C39ED0AA0 /* Pods_AYCountries_Example.framework */,
+				A00E61687557470BBF91F8AD3D449F9E /* Pods_AYCountries_Tests.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CACC8BAF83CD50F86D10F7F093DB42BC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5A4703FCEA70EE92EFE8B5DF684C2B7 /* AYCountries.modulemap */,
+				DA0CCC60B4499F1FC67E99EAE33C25AC /* AYCountries.xcconfig */,
+				6A7DF81446B846F27E986CEA1CCF396C /* AYCountries-dummy.m */,
+				824E5A9E9B109D1FBD65794516A43678 /* AYCountries-Info.plist */,
+				744B954E490ACBA61D5BF54D34FEA42F /* AYCountries-prefix.pch */,
+				B8411656EF9E1AAE5C79D9E5A8937C99 /* AYCountries-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AYCountries";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				BAB3E760E6619F4BE36DC3C8375E7C70 /* Development Pods */,
+				D442714DA9953C0C050FFDDF6B78A321 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				BDDBD32CBDB857A5062A60D4116D0C52 /* Products */,
 				4D7205B7AEE402433D29FAAD419644B7 /* Targets Support Files */,
@@ -332,104 +300,136 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F78DAEA9820656AF4333FC0774C24C4F /* Pods-AYCountries_Example */ = {
+		D442714DA9953C0C050FFDDF6B78A321 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				65214C557AD8110928451F7F0F839F6F /* Pods-AYCountries_Example.modulemap */,
-				C796E0F9966A134529D3E85AAB9EB17A /* Pods-AYCountries_Example-acknowledgements.markdown */,
-				3F6331DE65776F370CF76F7F7FD916A1 /* Pods-AYCountries_Example-acknowledgements.plist */,
-				C99834B0CC6E7EB3578FEACBA86ECD18 /* Pods-AYCountries_Example-dummy.m */,
-				D91E44945D0A1C3A6AB9E11768A6A965 /* Pods-AYCountries_Example-frameworks.sh */,
-				681338EE3E7CB2B971B08AFCA58B999F /* Pods-AYCountries_Example-Info.plist */,
-				4D44EF5F86ACADA413BD4798BB3C2850 /* Pods-AYCountries_Example-umbrella.h */,
-				2D5B008961105B417C529D751B1600B4 /* Pods-AYCountries_Example.debug.xcconfig */,
-				4173314CCD7DA1632CFE0FE881A87758 /* Pods-AYCountries_Example.release.xcconfig */,
+				D9576BABA7244925B31E3DB0330E07E8 /* AYCountries */,
 			);
-			name = "Pods-AYCountries_Example";
-			path = "Target Support Files/Pods-AYCountries_Example";
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D9576BABA7244925B31E3DB0330E07E8 /* AYCountries */ = {
+			isa = PBXGroup;
+			children = (
+				DE6C017CAFF9D10B058F41AA248238BC /* Extensions */,
+				79164538D473933C558734ECB93783F6 /* Helpers */,
+				934F855140A5EDF7F647091EA8F90D6E /* Modules */,
+				BDD0BDC8D78A4B808D2CF7299E6CE824 /* Pod */,
+				9489EA1D3C9864C178DAD8A013601AD0 /* Resources */,
+				A2DF03BF1486B080D75C0A0109780DA3 /* Services */,
+				CACC8BAF83CD50F86D10F7F093DB42BC /* Support Files */,
+				F4D98A51A2E34C286F8BDA9AAD0F06E4 /* Views */,
+			);
+			name = AYCountries;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		DE6C017CAFF9D10B058F41AA248238BC /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1F1B488D9A516A202A7A33761DBB9F62 /* NSLocale.swift */,
+				8B3EA37CC2590436E0A970BD8D5D2073 /* String.swift */,
+				5C0424DECBF33F149E717A5259FA82E7 /* UIStoryboard.swift */,
+				EB720DFEBB0BB5D1C1B9992C49AF1AA4 /* UITableView.swift */,
+			);
+			name = Extensions;
+			path = AYCountries/Classes/Extensions;
+			sourceTree = "<group>";
+		};
+		F4D98A51A2E34C286F8BDA9AAD0F06E4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7E3CDF48865823A34DBC5CAB12A15693 /* AYCellViewModel.swift */,
+				26DADD37662A1535BDEBCD186295128D /* AYCountryTableViewCell.swift */,
+				35DF7E7CD40FAE019AC524DE1798A24A /* AYCountryTableViewCell.xib */,
+				40A2F19B22D35A5700EC67A8 /* AYEmptyTableViewCell.swift */,
+				40A2F19C22D35A5800EC67A8 /* AYEmptyTableViewCell.xib */,
+			);
+			name = Views;
+			path = AYCountries/Classes/Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4A573F141225746055C15737C646A408 /* Headers */ = {
+		9466A8266504223E92F2C5A8E771A946 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29BABE95BD6F3525813D7965396F8614 /* Pods-AYCountries_Tests-umbrella.h in Headers */,
+				664B281263B295CE54BCECDBFCC9D7BD /* Pods-AYCountries_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		83C7A8452BFF7781785269522EDC619B /* Headers */ = {
+		D0C4766D489CF2AD21E0AA2E06A89234 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5EE5A84BBE8254D3FF82EC1D34923EB /* Pods-AYCountries_Example-umbrella.h in Headers */,
+				328AA940C32B229F9927552A51C1596E /* Pods-AYCountries_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AEEC8E43C8772FEA328635CBB85A9F7D /* Headers */ = {
+		DE9045E78C2D29FB42E46FCACA7DCB00 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79A9285C1FFE88D4AE63D1F92668D4DE /* AYCountries-umbrella.h in Headers */,
+				0058C0622FCDE7657FFAEE829560E75B /* AYCountries-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1C2A02B8A6361E3EE860C97537850742 /* Pods-AYCountries_Example */ = {
+		592AB7F325F3A7CAEDB3F8DD978A2EFB /* Pods-AYCountries_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7A1AFD838C72D0C2EA6CEB0E60DE34A0 /* Build configuration list for PBXNativeTarget "Pods-AYCountries_Example" */;
+			buildConfigurationList = D2D1EDA319A53E46A62EB0C9EC2E7B4A /* Build configuration list for PBXNativeTarget "Pods-AYCountries_Example" */;
 			buildPhases = (
-				83C7A8452BFF7781785269522EDC619B /* Headers */,
-				29B0E8978CB6B5A2B6E6CBA8547251CF /* Sources */,
-				365CA727FE184ACF1E93AD1519A9971E /* Frameworks */,
-				F7D743DAAA412FBF395C1AA22368039C /* Resources */,
+				9466A8266504223E92F2C5A8E771A946 /* Headers */,
+				1567AAFE76349DBE08883F62387844A6 /* Sources */,
+				F92E9125C65045A08EF93CF324602142 /* Frameworks */,
+				28DB95BBA7940172FB4F6D1D8866BEA2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				206534560C23C4657CB214D82227002D /* PBXTargetDependency */,
+				1069B33D74C0D6E3624C9F672B7235FB /* PBXTargetDependency */,
 			);
 			name = "Pods-AYCountries_Example";
 			productName = "Pods-AYCountries_Example";
-			productReference = 68713428306A4A9801A4C2B506E0BCB5 /* Pods_AYCountries_Example.framework */;
+			productReference = 6DFE119C58797B6A1546984C39ED0AA0 /* Pods_AYCountries_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B95499592B228D16CD9B36710BB2EA56 /* Pods-AYCountries_Tests */ = {
+		8D581189A75F547E4AFB4378C8E8C516 /* Pods-AYCountries_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 78ADA6845023DFF507C642F1A6736451 /* Build configuration list for PBXNativeTarget "Pods-AYCountries_Tests" */;
+			buildConfigurationList = 3DA4E3B829D58CA1ABBAE6D4FA692078 /* Build configuration list for PBXNativeTarget "Pods-AYCountries_Tests" */;
 			buildPhases = (
-				4A573F141225746055C15737C646A408 /* Headers */,
-				14412A22C43096FFC0FD14DC1265193F /* Sources */,
-				7BE2FE66CE1BB96DF1ABF27ADF342680 /* Frameworks */,
-				A0A9EE51861CE374423D6F6CC4FC7EEC /* Resources */,
+				D0C4766D489CF2AD21E0AA2E06A89234 /* Headers */,
+				67FA46242827B4584CCAC684BD1C14CA /* Sources */,
+				D456D14FD5FF963845F18BF387608388 /* Frameworks */,
+				07C8BCB03A6AF791ECB843A44FF06012 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C3FE06A06EEC43820DC251264804F2FA /* PBXTargetDependency */,
+				38F928DB486977DF128E078077E695B9 /* PBXTargetDependency */,
 			);
 			name = "Pods-AYCountries_Tests";
 			productName = "Pods-AYCountries_Tests";
-			productReference = AFFBADB7B7A2FD79BEA1DA61C4D8E9BD /* Pods_AYCountries_Tests.framework */;
+			productReference = A00E61687557470BBF91F8AD3D449F9E /* Pods_AYCountries_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		FD544B6722D16EC9480E9D5533CCBBB3 /* AYCountries */ = {
+		C7D40C07E3882DB710543BD42FB5FDB5 /* AYCountries */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3601AB3B770246DE4EAAB34C598295BA /* Build configuration list for PBXNativeTarget "AYCountries" */;
+			buildConfigurationList = 7B3CCAB46BE558E0012E24E3BA0E836D /* Build configuration list for PBXNativeTarget "AYCountries" */;
 			buildPhases = (
-				AEEC8E43C8772FEA328635CBB85A9F7D /* Headers */,
-				9D9414267F9591887B0ED63631A49FB0 /* Sources */,
-				0C010568E1DA8989465140D0D1E13B6A /* Frameworks */,
-				D93D1F03B0E6DF6AA3637AED6A6DD3C7 /* Resources */,
+				DE9045E78C2D29FB42E46FCACA7DCB00 /* Headers */,
+				A0FB17132B4A8C5AC1F2D8DC6E98FD5E /* Sources */,
+				A30CFE0E2A0F1992715A819C02FAE080 /* Frameworks */,
+				36BDC3276456101D25B287E0E9B02BE7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -437,7 +437,7 @@
 			);
 			name = AYCountries;
 			productName = AYCountries;
-			productReference = 4E67A113A242D694A0068F8345ADE25F /* AYCountries.framework */;
+			productReference = 2589B4F59E33669FAB1C8FAF5E030A19 /* AYCountries.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -446,15 +446,14 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -462,204 +461,105 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FD544B6722D16EC9480E9D5533CCBBB3 /* AYCountries */,
-				1C2A02B8A6361E3EE860C97537850742 /* Pods-AYCountries_Example */,
-				B95499592B228D16CD9B36710BB2EA56 /* Pods-AYCountries_Tests */,
+				C7D40C07E3882DB710543BD42FB5FDB5 /* AYCountries */,
+				592AB7F325F3A7CAEDB3F8DD978A2EFB /* Pods-AYCountries_Example */,
+				8D581189A75F547E4AFB4378C8E8C516 /* Pods-AYCountries_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A0A9EE51861CE374423D6F6CC4FC7EEC /* Resources */ = {
+		07C8BCB03A6AF791ECB843A44FF06012 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D93D1F03B0E6DF6AA3637AED6A6DD3C7 /* Resources */ = {
+		28DB95BBA7940172FB4F6D1D8866BEA2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4019883E22942B6C00AF0822 /* AYCountries.storyboard in Resources */,
-				4019884B22942B6C00AF0822 /* AYEmptyTableViewCell.xib in Resources */,
-				4019884622942B6C00AF0822 /* code.plist in Resources */,
-				4019884922942B6C00AF0822 /* AYCountryTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F7D743DAAA412FBF395C1AA22368039C /* Resources */ = {
+		36BDC3276456101D25B287E0E9B02BE7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40A2F19E22D35A5800EC67A8 /* AYEmptyTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		14412A22C43096FFC0FD14DC1265193F /* Sources */ = {
+		1567AAFE76349DBE08883F62387844A6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				657B44AB7BB734FF583E55C4D66F5274 /* Pods-AYCountries_Tests-dummy.m in Sources */,
+				586A961E42A5D48AA79AFF6071FCEA5D /* Pods-AYCountries_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		29B0E8978CB6B5A2B6E6CBA8547251CF /* Sources */ = {
+		67FA46242827B4584CCAC684BD1C14CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9214E661530C83B32892F31336EC42BF /* Pods-AYCountries_Example-dummy.m in Sources */,
+				7E79E1A179000C3348E5E770985B14E7 /* Pods-AYCountries_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9D9414267F9591887B0ED63631A49FB0 /* Sources */ = {
+		A0FB17132B4A8C5AC1F2D8DC6E98FD5E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4019884522942B6C00AF0822 /* AYCountriesProtocols.swift in Sources */,
-				4019883F22942B6C00AF0822 /* AYCountry.swift in Sources */,
-				4019884122942B6C00AF0822 /* AYCountriesRouter.swift in Sources */,
-				4019883A22942B6C00AF0822 /* UIStoryboard.swift in Sources */,
-				4019884222942B6C00AF0822 /* AYCountriesConfigurator.swift in Sources */,
-				4019883C22942B6C00AF0822 /* AYFileService.swift in Sources */,
-				4019884822942B6C00AF0822 /* AYCountryTableViewCell.swift in Sources */,
-				4019884A22942B6C00AF0822 /* AYCellViewModel.swift in Sources */,
-				BA0B8495E0708281F64B47EFDFDAC20A /* AYCountries-dummy.m in Sources */,
-				4019883822942B6C00AF0822 /* UITableView.swift in Sources */,
-				4019884722942B6C00AF0822 /* AYEmptyTableViewCell.swift in Sources */,
-				4019884322942B6C00AF0822 /* AYCountriesPresenter.swift in Sources */,
-				4019883922942B6C00AF0822 /* String.swift in Sources */,
-				4019884022942B6C00AF0822 /* AYEmpty.swift in Sources */,
-				4019883B22942B6C00AF0822 /* AYCountriesService.swift in Sources */,
-				4019884C22942B6C00AF0822 /* StoryboardLoadable.swift in Sources */,
-				4019883D22942B6C00AF0822 /* AYCountriesInteractor.swift in Sources */,
-				4019883722942B6C00AF0822 /* NSLocale.swift in Sources */,
-				4019884422942B6C00AF0822 /* AYCountriesViewController.swift in Sources */,
+				076551CFE90B3C30B7DD96EFAA5FCDA6 /* AYCellViewModel.swift in Sources */,
+				F6E3DA28DC459C429E8DAC4D525171B2 /* AYCountries-dummy.m in Sources */,
+				C7D144ABE01A517D2B5D5364331ADBF4 /* AYCountries.storyboard in Sources */,
+				56353F58003F2EF49CE78379FB87DF7F /* AYCountriesConfigurator.swift in Sources */,
+				2E504203601C7BF9284FF1929833C65A /* AYCountriesInteractor.swift in Sources */,
+				A613F1F5DB3E9E98CE87209E2315DA12 /* AYCountriesPresenter.swift in Sources */,
+				B77145713DCBB962672B294C8CC23050 /* AYCountriesProtocols.swift in Sources */,
+				62562016BFA2AC6174C06483018FBBFB /* AYCountriesRouter.swift in Sources */,
+				CF7FACC06B43B40261A2A90194AAA6D6 /* AYCountriesService.swift in Sources */,
+				88389283C3FEDCF3B0A917362B255504 /* AYCountriesViewController.swift in Sources */,
+				6427C2AC4035FB70D80F09704B9D4276 /* AYCountry.swift in Sources */,
+				2D71BB6D3DEB77DE497CF2D1E8E00136 /* AYCountryTableViewCell.swift in Sources */,
+				B291FF6D177C6B226561F3C46AF95297 /* AYCountryTableViewCell.xib in Sources */,
+				563CE6D866A18173536311344FD5F660 /* AYEmpty.swift in Sources */,
+				D0B507710F558202DDB31DDBFD1C563E /* AYFileService.swift in Sources */,
+				40A2F19D22D35A5800EC67A8 /* AYEmptyTableViewCell.swift in Sources */,
+				8E31384DB9795388CE233A2BB4540220 /* code.plist in Sources */,
+				1C95D6A3EFC9939FF64BA1833B830273 /* NSLocale.swift in Sources */,
+				AB00C05D60820097751FA403F33759DD /* StoryboardLoadable.swift in Sources */,
+				405DBB777234FAF01DDB0A16647F80FB /* String.swift in Sources */,
+				FD857DC367F0CECDDF4B2A19FE2F2415 /* UIStoryboard.swift in Sources */,
+				CDEA58EC320FACDFA86369F9FFD373F1 /* UITableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		206534560C23C4657CB214D82227002D /* PBXTargetDependency */ = {
+		1069B33D74C0D6E3624C9F672B7235FB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AYCountries;
-			target = FD544B6722D16EC9480E9D5533CCBBB3 /* AYCountries */;
-			targetProxy = 035597C05CAD10D772FC15251295A9A3 /* PBXContainerItemProxy */;
+			target = C7D40C07E3882DB710543BD42FB5FDB5 /* AYCountries */;
+			targetProxy = D121C53651C108860732F9192A266F8B /* PBXContainerItemProxy */;
 		};
-		C3FE06A06EEC43820DC251264804F2FA /* PBXTargetDependency */ = {
+		38F928DB486977DF128E078077E695B9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-AYCountries_Example";
-			target = 1C2A02B8A6361E3EE860C97537850742 /* Pods-AYCountries_Example */;
-			targetProxy = CBA17541F48D80A6CB11FC9EEAD67E22 /* PBXContainerItemProxy */;
+			target = 592AB7F325F3A7CAEDB3F8DD978A2EFB /* Pods-AYCountries_Example */;
+			targetProxy = 9E8B42A259CF4E10B67DEC47FA9FD60A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		20136D3BE97CD6708BF47C75AAE96B50 /* Release */ = {
+		1C060F549E72ECD3822286200F63FF46 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4173314CCD7DA1632CFE0FE881A87758 /* Pods-AYCountries_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AYCountries_Example/Pods-AYCountries_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AYCountries_Example/Pods-AYCountries_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2E67740065C4ACA4EA2B6C2DE3201C07 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 092C76BB5B12B10513A8E798E04EACBA /* AYCountries.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AYCountries/AYCountries-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AYCountries/AYCountries-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AYCountries/AYCountries.modulemap";
-				PRODUCT_MODULE_NAME = AYCountries;
-				PRODUCT_NAME = AYCountries;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2FF681A68474571BBA389F8B37DEFCD7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2D5B008961105B417C529D751B1600B4 /* Pods-AYCountries_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AYCountries_Example/Pods-AYCountries_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AYCountries_Example/Pods-AYCountries_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6834E62B02029A3124A8942DA18811A4 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88154B6486E00B17EAB6CADB3BD61505 /* Pods-AYCountries_Tests.debug.xcconfig */;
+			baseConfigurationReference = B99C2915AF8B346915C7CDF4B9A14917 /* Pods-AYCountries_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -673,7 +573,106 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-AYCountries_Tests/Pods-AYCountries_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AYCountries_Tests/Pods-AYCountries_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		281BB72781ADCB61D801A107BAC2D6AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA0CCC60B4499F1FC67E99EAE33C25AC /* AYCountries.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AYCountries/AYCountries-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AYCountries/AYCountries-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AYCountries/AYCountries.modulemap";
+				PRODUCT_MODULE_NAME = AYCountries;
+				PRODUCT_NAME = AYCountries;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3EE995335DC0DCB2A45D4EC9DCEC4698 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA0CCC60B4499F1FC67E99EAE33C25AC /* AYCountries.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AYCountries/AYCountries-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AYCountries/AYCountries-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AYCountries/AYCountries.modulemap";
+				PRODUCT_MODULE_NAME = AYCountries;
+				PRODUCT_NAME = AYCountries;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6F46AE469C62451CB8F53A2030E2B689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B903709BE9C5CBBC9E7A16F8B74C2809 /* Pods-AYCountries_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AYCountries_Tests/Pods-AYCountries_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-AYCountries_Tests/Pods-AYCountries_Tests.modulemap";
@@ -690,7 +689,66 @@
 			};
 			name = Debug;
 		};
-		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -741,7 +799,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -749,45 +807,14 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		E0586E599401D35530823B302C0216D5 /* Debug */ = {
+		E1C10D1AFC9B52669D3CAC21B6EEE067 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 092C76BB5B12B10513A8E798E04EACBA /* AYCountries.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/AYCountries/AYCountries-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AYCountries/AYCountries-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AYCountries/AYCountries.modulemap";
-				PRODUCT_MODULE_NAME = AYCountries;
-				PRODUCT_NAME = AYCountries;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E38BC5805355F0F578D36E7BBB2F800B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = DA0DB9BA29543A52CB7AEE6D3BC4E01D /* Pods-AYCountries_Tests.release.xcconfig */;
+			baseConfigurationReference = E37ACA3AD6F18E9C3F7BCBA8A066A054 /* Pods-AYCountries_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -799,12 +826,45 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AYCountries_Tests/Pods-AYCountries_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-AYCountries_Example/Pods-AYCountries_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AYCountries_Tests/Pods-AYCountries_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-AYCountries_Example/Pods-AYCountries_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA8F114EC08593C9F09BC1D95BBEFD7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FE8FF6E28D2E99AAA07EAC1C5782C2B /* Pods-AYCountries_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AYCountries_Example/Pods-AYCountries_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AYCountries_Example/Pods-AYCountries_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -819,73 +879,14 @@
 			};
 			name = Release;
 		};
-		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3601AB3B770246DE4EAAB34C598295BA /* Build configuration list for PBXNativeTarget "AYCountries" */ = {
+		3DA4E3B829D58CA1ABBAE6D4FA692078 /* Build configuration list for PBXNativeTarget "Pods-AYCountries_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E0586E599401D35530823B302C0216D5 /* Debug */,
-				2E67740065C4ACA4EA2B6C2DE3201C07 /* Release */,
+				6F46AE469C62451CB8F53A2030E2B689 /* Debug */,
+				1C060F549E72ECD3822286200F63FF46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -893,26 +894,26 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
-				F232B5ECA11A71BFA199A229B323F454 /* Release */,
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		78ADA6845023DFF507C642F1A6736451 /* Build configuration list for PBXNativeTarget "Pods-AYCountries_Tests" */ = {
+		7B3CCAB46BE558E0012E24E3BA0E836D /* Build configuration list for PBXNativeTarget "AYCountries" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6834E62B02029A3124A8942DA18811A4 /* Debug */,
-				E38BC5805355F0F578D36E7BBB2F800B /* Release */,
+				3EE995335DC0DCB2A45D4EC9DCEC4698 /* Debug */,
+				281BB72781ADCB61D801A107BAC2D6AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7A1AFD838C72D0C2EA6CEB0E60DE34A0 /* Build configuration list for PBXNativeTarget "Pods-AYCountries_Example" */ = {
+		D2D1EDA319A53E46A62EB0C9EC2E7B4A /* Build configuration list for PBXNativeTarget "Pods-AYCountries_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2FF681A68474571BBA389F8B37DEFCD7 /* Debug */,
-				20136D3BE97CD6708BF47C75AAE96B50 /* Release */,
+				E1C10D1AFC9B52669D3CAC21B6EEE067 /* Debug */,
+				FA8F114EC08593C9F09BC1D95BBEFD7D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

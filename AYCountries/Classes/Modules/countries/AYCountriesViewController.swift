@@ -22,6 +22,12 @@
 
 import UIKit
 
+public enum Query {
+  case code(_ code: String)
+  case name(_ name: String)
+  case phone(_ phoneCode: String)
+}
+
 public class AYCountriesViewController: UIViewController, StoryboardLoadable {
   
   @IBOutlet weak var tableView: UITableView!
@@ -34,9 +40,13 @@ public class AYCountriesViewController: UIViewController, StoryboardLoadable {
       AYCountriesConfigurator.defaultConfigure(with: self)
     }
     presenter?.configureView()
-    if let cell = presenter?.cellModel {
-      tableView.register(nibModels: [cell], for: AYCountriesViewController.self)
+    if let models = presenter?.cellModels {
+      tableView.register(nibModels: models, for: AYCountriesViewController.self)
     }
+  }
+  
+  public func fetch(with query: Query) {
+    presenter?.query(query)
   }
   
 }
