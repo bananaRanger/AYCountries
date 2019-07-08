@@ -43,6 +43,8 @@ let countriesViewController = AYCountriesConfigurator.configure { [weak self] co
   vc.dismiss(animated: true, completion: nil)
 }
 present(countriesViewController, animated: true, completion: nil)
+
+countriesViewController.fetch(with: Query.name("ukr")) // fetch countries that contains 'ukr' in the name (case insensitive)
 ```
 
 

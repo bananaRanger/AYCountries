@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AYCountries'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.summary          = 'A list of countries with flags and phone codes.'
 
 # This description is used to generate tags and improve search results.
