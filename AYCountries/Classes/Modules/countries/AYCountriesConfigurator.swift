@@ -23,15 +23,27 @@
 import Foundation
 
 public class AYCountriesConfigurator: AYCountriesConfiguratorProtocol {
-
-  public static func configure(with completionHandler: @escaping AYCountriesCompletionHandler) -> AYCountriesViewController {
+  
+  /**
+   
+   Module configuration method.
+   
+   - parameters:
+      - locale: is a used locale. You can set it to *nil* to use system device local.
+      - completionHandler: handler that calls when user have selected the country and
+   return selected *AYCountry?* object and *UIViewController* to dismissing.
+   
+   - returns: Configurated AYCountriesViewController.
+   
+   */
+  public static func configure(with locale: Locale? = nil, completionHandler: @escaping AYCountriesCompletionHandler) -> AYCountriesViewController {
     let bundle = Bundle(for: AYCountriesConfigurator.self)
     let viewController: AYCountriesViewController = UIStoryboard.loadViewController(with: bundle)
     let presenter = AYCountriesPresenter(with: viewController)
-    let interactor = AYCountriesInteractor()
-    viewController.presenter = presenter
+    let interactor = AYCountriesInteractor(locale: locale)
     presenter.interactor = interactor
     presenter.completionHandler = completionHandler
+    viewController.presenter = presenter
     return viewController
   }
   

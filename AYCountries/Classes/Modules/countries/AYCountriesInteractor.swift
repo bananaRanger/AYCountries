@@ -27,8 +27,11 @@ class AYCountriesInteractor: AYCountriesInteractorProtocol {
   private var allCountries: [AYCountry] = []
   private var countries: [AYCountry] = []
 
-  init() {
-    self.allCountries = AYCountriesService.listOfCountries()
+  private var locale: Locale?
+  
+  init(locale: Locale? = nil) {
+    self.locale = locale
+    self.allCountries = AYCountriesService.listOfCountries(with: locale)
     self.allCountries.sort { c1, c2 in
       return c1.name.lowercased() < c2.name.lowercased()
     }

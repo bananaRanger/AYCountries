@@ -25,7 +25,7 @@ import UIKit
 public typealias AYCountriesCompletionHandler = (AYCountry?, UIViewController) -> ()
 
 protocol AYCountriesConfiguratorProtocol: class {
-  static func configure(with completionHandler: @escaping AYCountriesCompletionHandler) -> AYCountriesViewController
+  static func configure(with locale: Locale?, completionHandler: @escaping AYCountriesCompletionHandler) -> AYCountriesViewController
   static func defaultConfigure(with viewController: AYCountriesViewController)
 }
 

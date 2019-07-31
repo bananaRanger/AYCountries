@@ -23,13 +23,12 @@
 import UIKit
 
 protocol AYCountriesServiceProtocol {
-  static func listOfCountries() -> [AYCountry]
-  static func currentCountry() -> AYCountry?
+  static func listOfCountries(with locale: Locale?) -> [AYCountry]
 }
 
 class AYCountriesService: NSObject, AYCountriesServiceProtocol {
   
-  static func listOfCountries() -> [AYCountry] {
+  static func listOfCountries(with locale: Locale?) -> [AYCountry] {
     var countries: [AYCountry] = []
     
     guard let dictionary = AYFileService.dictionary(with: "code", and: "plist") else {
@@ -37,18 +36,11 @@ class AYCountriesService: NSObject, AYCountriesServiceProtocol {
     }
     
     dictionary.forEach { countryCode, phoneCode in
-      guard let countryName = NSLocale.countryName(by: countryCode) else { return }
+      guard let countryName = NSLocale.countryName(by: countryCode, and: locale) else { return }
       let country = AYCountry(with: countryCode, name: countryName, phoneCode: phoneCode)
       countries.append(country)
     }
     
     return countries
   }
-  
-  static func currentCountry() -> AYCountry? {
-    guard let currentCode = Locale.current.regionCode,
-      let countryName = NSLocale.countryName(by: currentCode) else { return nil }
-    return AYCountry(with: currentCode, name: countryName)
-  }
-  
 }
