@@ -34,6 +34,8 @@ protocol AYCountriesPresenterProtocol: class {
   var cellModels: [AYCellAnyViewModel.Type] { get }
   var completionHandler: AYCountriesCompletionHandler? { get set }
   var defaultNumberOfRowsInSection: Int { get }
+  var emptyTitle: String { get set }
+  var emptyMesssage: String { get set }
   func configureView()
   func query(_ query: Query) 
   func numberOfRowsInSection() -> Int

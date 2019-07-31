@@ -49,6 +49,14 @@ public class AYCountriesViewController: UIViewController, StoryboardLoadable {
     presenter?.query(query)
   }
   
+  public func emptyTitle(_ title: String) {
+    presenter?.emptyTitle = title
+  }
+  
+  public func emptyMessage(_ message: String) {
+    presenter?.emptyMesssage = message
+  }
+  
 }
 
 extension AYCountriesViewController: UITableViewDataSource {

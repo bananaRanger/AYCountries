@@ -36,6 +36,7 @@ class AYCountriesInteractor: AYCountriesInteractorProtocol {
   }
   
   func country(by index: Int) -> AYCountry? {
+    guard !countries.isEmpty else { return nil }
     return countries[index]
   }
   

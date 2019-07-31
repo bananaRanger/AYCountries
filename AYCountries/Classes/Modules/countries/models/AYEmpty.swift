@@ -31,9 +31,5 @@ public class AYEmpty {
     self.message = message
     self.details = details
   }
-  
-  public static func emptyDefault() -> AYEmpty {
-    return AYEmpty(with: "There are no data", and: "Countries list is empty")
-  }
-  
+
 }

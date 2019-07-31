@@ -35,6 +35,9 @@ class AYCountriesPresenter: AYCountriesPresenterProtocol {
   
   var defaultNumberOfRowsInSection: Int = 1
 
+  var emptyTitle: String = "There are no data"
+  var emptyMesssage: String = "Countries list is empty"
+
   init(with view: AYCountriesViewProtocol) {
     self.view = view
   }
@@ -57,7 +60,7 @@ class AYCountriesPresenter: AYCountriesPresenterProtocol {
   
   func model(with indexPath: IndexPath) -> AYCellAnyViewModel? {
     if interactor?.count() == 0 {
-      return AYEmpty.emptyDefault()
+      return AYEmpty(with: emptyTitle, and: emptyMesssage)
     }
     return interactor?.country(by: indexPath.row)
   }

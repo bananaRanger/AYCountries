@@ -15,12 +15,12 @@
 		2E504203601C7BF9284FF1929833C65A /* AYCountriesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA100BB90E0DA1458A878945E2D7BFC /* AYCountriesInteractor.swift */; };
 		328AA940C32B229F9927552A51C1596E /* Pods-AYCountries_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AEA452DC961DA3A477EBA909673C541D /* Pods-AYCountries_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		405DBB777234FAF01DDB0A16647F80FB /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B3EA37CC2590436E0A970BD8D5D2073 /* String.swift */; };
-		40A2F19D22D35A5800EC67A8 /* AYEmptyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A2F19B22D35A5700EC67A8 /* AYEmptyTableViewCell.swift */; };
-		40A2F19E22D35A5800EC67A8 /* AYEmptyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40A2F19C22D35A5800EC67A8 /* AYEmptyTableViewCell.xib */; };
 		56353F58003F2EF49CE78379FB87DF7F /* AYCountriesConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50532EC4DE2BF0068755AB7E62B879E1 /* AYCountriesConfigurator.swift */; };
 		563CE6D866A18173536311344FD5F660 /* AYEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A70A2A91DEFEE29BA399DC325F1A872 /* AYEmpty.swift */; };
 		586A961E42A5D48AA79AFF6071FCEA5D /* Pods-AYCountries_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9607E7904B955896531309AA8B2C2D3D /* Pods-AYCountries_Example-dummy.m */; };
+		5E9AB616011B227B5C021E214C3A4444 /* AYEmptyTableViewCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 6DB8F0C0D3AFA99AFDFD3C22BDF934A4 /* AYEmptyTableViewCell.xib */; };
 		62562016BFA2AC6174C06483018FBBFB /* AYCountriesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4B492758597304411F86F83D76BD55 /* AYCountriesRouter.swift */; };
+		63DADC50542C91626651A327357EB16D /* AYEmptyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237918A87B197C3EB9458DD3FF5721E9 /* AYEmptyTableViewCell.swift */; };
 		6427C2AC4035FB70D80F09704B9D4276 /* AYCountry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E319C0F6E98B1556DFE2990EB9457C /* AYCountry.swift */; };
 		664B281263B295CE54BCECDBFCC9D7BD /* Pods-AYCountries_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE16CF2460FA680AEC1D63D0B332D3B5 /* Pods-AYCountries_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7E79E1A179000C3348E5E770985B14E7 /* Pods-AYCountries_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B5F821EB276DEE7073BCE2C4BC5150DB /* Pods-AYCountries_Tests-dummy.m */; };
@@ -60,6 +60,7 @@
 /* Begin PBXFileReference section */
 		0A70A2A91DEFEE29BA399DC325F1A872 /* AYEmpty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYEmpty.swift; sourceTree = "<group>"; };
 		1F1B488D9A516A202A7A33761DBB9F62 /* NSLocale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NSLocale.swift; sourceTree = "<group>"; };
+		237918A87B197C3EB9458DD3FF5721E9 /* AYEmptyTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYEmptyTableViewCell.swift; sourceTree = "<group>"; };
 		2589B4F59E33669FAB1C8FAF5E030A19 /* AYCountries.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AYCountries.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		26DADD37662A1535BDEBCD186295128D /* AYCountryTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYCountryTableViewCell.swift; sourceTree = "<group>"; };
 		2B76AF683B7A0257A1C980008FEA2E4B /* Pods-AYCountries_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AYCountries_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -69,8 +70,6 @@
 		3436CDB90E1402BB38D73C35F6CC9D00 /* AYCountriesProtocols.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYCountriesProtocols.swift; sourceTree = "<group>"; };
 		35DF7E7CD40FAE019AC524DE1798A24A /* AYCountryTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = AYCountryTableViewCell.xib; sourceTree = "<group>"; };
 		3A343D378ED5C51CBEB1B373FC939B95 /* StoryboardLoadable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StoryboardLoadable.swift; sourceTree = "<group>"; };
-		40A2F19B22D35A5700EC67A8 /* AYEmptyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AYEmptyTableViewCell.swift; sourceTree = "<group>"; };
-		40A2F19C22D35A5800EC67A8 /* AYEmptyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AYEmptyTableViewCell.xib; sourceTree = "<group>"; };
 		41164F62B19ECABBC6129F47C92852AD /* Pods-AYCountries_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AYCountries_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		50532EC4DE2BF0068755AB7E62B879E1 /* AYCountriesConfigurator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYCountriesConfigurator.swift; sourceTree = "<group>"; };
 		5C0424DECBF33F149E717A5259FA82E7 /* UIStoryboard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIStoryboard.swift; sourceTree = "<group>"; };
@@ -79,6 +78,7 @@
 		671EC94B036A6470BE9EFD8222B4B8F6 /* Pods-AYCountries_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AYCountries_Example.modulemap"; sourceTree = "<group>"; };
 		6A7DF81446B846F27E986CEA1CCF396C /* AYCountries-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AYCountries-dummy.m"; sourceTree = "<group>"; };
 		6BA100BB90E0DA1458A878945E2D7BFC /* AYCountriesInteractor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYCountriesInteractor.swift; sourceTree = "<group>"; };
+		6DB8F0C0D3AFA99AFDFD3C22BDF934A4 /* AYEmptyTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = AYEmptyTableViewCell.xib; sourceTree = "<group>"; };
 		6DFE119C58797B6A1546984C39ED0AA0 /* Pods_AYCountries_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AYCountries_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EC3F8AE6D3CA9C9858C0162BEF15EE1 /* AYFileService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AYFileService.swift; sourceTree = "<group>"; };
 		744B954E490ACBA61D5BF54D34FEA42F /* AYCountries-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AYCountries-prefix.pch"; sourceTree = "<group>"; };
@@ -144,13 +144,13 @@
 		0F416C82DB8D5AD7DA8B428F814659DB /* countries */ = {
 			isa = PBXGroup;
 			children = (
-				AB78C688E8FC8E9E81595969E5B8801E /* AYCountries.storyboard */,
 				50532EC4DE2BF0068755AB7E62B879E1 /* AYCountriesConfigurator.swift */,
+				3436CDB90E1402BB38D73C35F6CC9D00 /* AYCountriesProtocols.swift */,
 				6BA100BB90E0DA1458A878945E2D7BFC /* AYCountriesInteractor.swift */,
 				7B2F4E052210D9B62F9B115D74C80DAC /* AYCountriesPresenter.swift */,
-				3436CDB90E1402BB38D73C35F6CC9D00 /* AYCountriesProtocols.swift */,
 				EB4B492758597304411F86F83D76BD55 /* AYCountriesRouter.swift */,
 				301275B5682145A49FC898004AAAE426 /* AYCountriesViewController.swift */,
+				AB78C688E8FC8E9E81595969E5B8801E /* AYCountries.storyboard */,
 				28D1A006D01CBC4F563426CFA8FC0A64 /* models */,
 			);
 			path = countries;
@@ -347,8 +347,8 @@
 				7E3CDF48865823A34DBC5CAB12A15693 /* AYCellViewModel.swift */,
 				26DADD37662A1535BDEBCD186295128D /* AYCountryTableViewCell.swift */,
 				35DF7E7CD40FAE019AC524DE1798A24A /* AYCountryTableViewCell.xib */,
-				40A2F19B22D35A5700EC67A8 /* AYEmptyTableViewCell.swift */,
-				40A2F19C22D35A5800EC67A8 /* AYEmptyTableViewCell.xib */,
+				237918A87B197C3EB9458DD3FF5721E9 /* AYEmptyTableViewCell.swift */,
+				6DB8F0C0D3AFA99AFDFD3C22BDF934A4 /* AYEmptyTableViewCell.xib */,
 			);
 			name = Views;
 			path = AYCountries/Classes/Views;
@@ -487,7 +487,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40A2F19E22D35A5800EC67A8 /* AYEmptyTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -528,8 +527,9 @@
 				2D71BB6D3DEB77DE497CF2D1E8E00136 /* AYCountryTableViewCell.swift in Sources */,
 				B291FF6D177C6B226561F3C46AF95297 /* AYCountryTableViewCell.xib in Sources */,
 				563CE6D866A18173536311344FD5F660 /* AYEmpty.swift in Sources */,
+				63DADC50542C91626651A327357EB16D /* AYEmptyTableViewCell.swift in Sources */,
+				5E9AB616011B227B5C021E214C3A4444 /* AYEmptyTableViewCell.xib in Sources */,
 				D0B507710F558202DDB31DDBFD1C563E /* AYFileService.swift in Sources */,
-				40A2F19D22D35A5800EC67A8 /* AYEmptyTableViewCell.swift in Sources */,
 				8E31384DB9795388CE233A2BB4540220 /* code.plist in Sources */,
 				1C95D6A3EFC9939FF64BA1833B830273 /* NSLocale.swift in Sources */,
 				AB00C05D60820097751FA403F33759DD /* StoryboardLoadable.swift in Sources */,
@@ -557,11 +557,76 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1C060F549E72ECD3822286200F63FF46 /* Release */ = {
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B99C2915AF8B346915C7CDF4B9A14917 /* Pods-AYCountries_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1DEDB9EC5F3AFE3F9DB63347D0766C02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E37ACA3AD6F18E9C3F7BCBA8A066A054 /* Pods-AYCountries_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -571,12 +636,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AYCountries_Tests/Pods-AYCountries_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-AYCountries_Example/Pods-AYCountries_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AYCountries_Tests/Pods-AYCountries_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-AYCountries_Example/Pods-AYCountries_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -585,11 +650,10 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		281BB72781ADCB61D801A107BAC2D6AF /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -656,11 +720,47 @@
 			};
 			name = Debug;
 		};
-		6F46AE469C62451CB8F53A2030E2B689 /* Debug */ = {
+		564EF81C4A0FE57231805D9E77EB28CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B99C2915AF8B346915C7CDF4B9A14917 /* Pods-AYCountries_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AYCountries_Tests/Pods-AYCountries_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AYCountries_Tests/Pods-AYCountries_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		61408D5043AA011DC0736AB5FE73B7D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B903709BE9C5CBBC9E7A16F8B74C2809 /* Pods-AYCountries_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -689,7 +789,7 @@
 			};
 			name = Debug;
 		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -748,108 +848,12 @@
 			};
 			name = Release;
 		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_DEBUG=1",
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
-				MTL_FAST_MATH = YES;
-				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		E1C10D1AFC9B52669D3CAC21B6EEE067 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E37ACA3AD6F18E9C3F7BCBA8A066A054 /* Pods-AYCountries_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AYCountries_Example/Pods-AYCountries_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AYCountries_Example/Pods-AYCountries_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		FA8F114EC08593C9F09BC1D95BBEFD7D /* Release */ = {
+		B1B90FF21C36AE7E9DAC85E6BFE13525 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2FE8FF6E28D2E99AAA07EAC1C5782C2B /* Pods-AYCountries_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -885,8 +889,8 @@
 		3DA4E3B829D58CA1ABBAE6D4FA692078 /* Build configuration list for PBXNativeTarget "Pods-AYCountries_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6F46AE469C62451CB8F53A2030E2B689 /* Debug */,
-				1C060F549E72ECD3822286200F63FF46 /* Release */,
+				61408D5043AA011DC0736AB5FE73B7D3 /* Debug */,
+				564EF81C4A0FE57231805D9E77EB28CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -894,8 +898,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -912,8 +916,8 @@
 		D2D1EDA319A53E46A62EB0C9EC2E7B4A /* Build configuration list for PBXNativeTarget "Pods-AYCountries_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E1C10D1AFC9B52669D3CAC21B6EEE067 /* Debug */,
-				FA8F114EC08593C9F09BC1D95BBEFD7D /* Release */,
+				1DEDB9EC5F3AFE3F9DB63347D0766C02 /* Debug */,
+				B1B90FF21C36AE7E9DAC85E6BFE13525 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

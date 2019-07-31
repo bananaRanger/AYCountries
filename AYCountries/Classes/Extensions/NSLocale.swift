@@ -25,7 +25,7 @@ import Foundation
 extension NSLocale {
   
   static func countryName(by code: String) -> String? {
-    let locale = NSLocale(localeIdentifier: Locale.current.identifier)
+    let locale = NSLocale(localeIdentifier: Locale.current.regionCode ?? Locale.current.identifier)
     guard let name = locale.displayName(forKey: .countryCode, value: code) else  {
       return nil
     }
